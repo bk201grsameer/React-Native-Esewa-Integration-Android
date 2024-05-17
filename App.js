@@ -4,6 +4,7 @@ import EsewaService from './src/Esewa';
 
 const clientId = 'JB0BBQ4aD0UqIThFJwAKBgAXEUkEGQUBBAwdOgABHD4DChwUAB0R';
 const secretKey = 'BhwIWQQADhIYSxILExMcAgFXFhcOBwAKBgAXEQ==';
+
 const App = () => {
   console.log({EsewaService});
 
@@ -55,4 +56,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+
 });
